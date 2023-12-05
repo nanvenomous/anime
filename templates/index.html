@@ -1,0 +1,19 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="icon" href="/assets/Microphone.svg" /> -->
+    <!-- <link rel="apple-touch-icon" href="/assets/Microphone.svg" /> -->
+    <title>anime</title>
+    <meta name="description" content="A library of cool css transitions" />
+
+    <script type="module" crossorigin src="/bundle/index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&display=swap" rel="stylesheet" />
+    {{range $sht := .StyleSheets}}
+    <link  rel="stylesheet" href="{{$sht}}" />
+    {{end}}
+  </head>
+  <body>
+    <div class="typingTextWord"></div>
+  </body>
+</html>
