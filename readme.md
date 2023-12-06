@@ -7,3 +7,6 @@ A collection of neat css tricks templated with go templates & served with `net/h
 ```bash
 go run ./...
 ```
+
+# Sources
+- https://alvarotrigo.com/blog/css-text-animations/
